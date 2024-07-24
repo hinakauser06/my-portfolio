@@ -5,10 +5,10 @@ import Image from "next/image"
 const Photo = () => {
   return (
 // image
-<motion.div initial={{opacity:0}} animate={{opacity:1, transition:{delay:1, duration:.4, ease:"easeIn"}}} className="h-full w-full relative ">
-        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{delay:1.8, duration:.4, ease:"easeInOut"}}}>
+<motion.div initial={{opacity:0}} animate={{opacity:1, transition:{delay:1, duration:.2, ease:"easeIn"}}} className="h-full w-full relative ">
+        <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{delay:1, duration:.2, ease:"easeInOut"}}}>
             <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-difference absolute">
-                <Image src="/img/ProfilePhoto.png" priority quality={100} fill alt="" className="object-contain  rounded-b-full" />
+                <Image src="/img/ProfilePhoto.png" priority quality={100} fill alt="" className="object-contain  rounded-full" />
             </div>
         </motion.div>
         {/* circle */}

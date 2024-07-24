@@ -29,7 +29,7 @@ const Stairs = () => {
 
         return   <motion.div key={index}  variants={stairAnimation} initial="initial" 
         animate="animate" exit="exit" transition={{
-            duration: 0.4,
+            duration: 0.2,
         ease: "easeInOut",
         delay : reversedIndex(index) * 0.1
       }}
